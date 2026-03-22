@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: docker
-    image: docker
-    args: ["sleep", "10000"]
+    image: docker:24.0.7
+    args: ["sleep", "3600"]
   restartPolicy: Never
 
